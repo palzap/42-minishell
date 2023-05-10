@@ -1,10 +1,10 @@
 # Minishell
 
 ## Overview
-## What is a shell
+### What is a shell
 A shell is a command-line interface (CLI) program that provides users with an interface to interact with the operating system. It allows users to enter commands and execute them, and can perform various operations such as launching programs, managing files and directories, and setting environment variables. The shell is often the primary user interface on Unix-based systems, and provides users with a way to interact with the system using text-based commands.
 
-## The project
+### The project
 The minishell program is designed to be a simplified version of a real shell, with a limited set of features including the ability to execute commands, handle I/O redirection, implement pipes, and handle environment variables. The project requires a good understanding of C programming, UNIX system calls, and process management.
 
 #### Basic features
