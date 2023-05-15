@@ -6,7 +6,7 @@
 /*   By: pealexan <pealexan@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 16:17:38 by pealexan          #+#    #+#             */
-/*   Updated: 2023/05/12 11:51:26 by pealexan         ###   ########.fr       */
+/*   Updated: 2023/05/15 14:53:43 by pealexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,7 @@ void	execute_multi_cmds(t_minishell *mini)
 	while (mini->args[i])
 	{
 		cmd = add_whitespaces(mini->args[i]);
+		mini->cmd_args = 0;
 		check_heredoc(mini, i);
 		execute_cmd(mini, cmd, i);
 		free(cmd);
