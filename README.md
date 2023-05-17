@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # 42Cursus-03-Minishell
 The objective of this project is for you to create a simple shell.
-=======
 # Minishell
 
 ## Overview
@@ -49,5 +47,5 @@ Failed due to a simple mistake on calling for ft_strncmp during built_in check.
 Failed due to a segfault caused by the quote_remover function when passing an argument like "word"'anotherword'
 
 #### Third submission
-
->>>>>>> ede739ff17efaecacc6b1f757b1005be11ffe7f0
+15/05/2023  
+100%  
