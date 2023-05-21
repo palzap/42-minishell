@@ -6,7 +6,7 @@
 /*   By: pealexan <pealexan@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/30 10:21:35 by pealexan          #+#    #+#             */
-/*   Updated: 2023/05/15 18:58:31 by pealexan         ###   ########.fr       */
+/*   Updated: 2023/05/21 17:50:09 by pealexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,6 @@ void	builtin_exit(t_minishell *mini, char **cmd_args, int x)
 	else
 	{
 		free_child(mini, cmd_args, 0);
-		g_exit_status = 0;
 		exit(g_exit_status);
 	}
 }
