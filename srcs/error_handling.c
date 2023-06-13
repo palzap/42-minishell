@@ -98,7 +98,7 @@ int	invalid_syntax(char *input)
 		ft_putstr_fd("minishell: no support for pipe prompt\n", 2);
 		return (1);
 	}
-	else if (strrchr(REDIR, input[ft_strlen(input) - 1]))
+	else if (ft_strrchr(REDIR, input[ft_strlen(input) - 1]))
 		return (syntax_error_operator(UNTOKEN, "newline"));
 	return (0);
 }
